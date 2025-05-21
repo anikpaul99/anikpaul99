@@ -20,6 +20,14 @@
 
 - 📫 How to reach me **hello@paulanik.com**
 
+### 🏅 Codewars Practice
+
+<p align="left">
+  <a href="https://www.codewars.com/users/anikpaul99" target="_blank">
+    <img src="https://www.codewars.com/users/anikpaul99/badges/large" alt="Codewars badge">
+  </a>
+</p>
+
 ### Blogs posts
 
 <!-- BLOG-POST-LIST:START -->
