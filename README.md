@@ -28,10 +28,15 @@
   </a>
 </p>
 
-### Blogs posts
+### 📝 My Latest Articles
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<p align="left">
+  <a href="https://dev.to/anikpaul/00-hello-dev-community-im-anik-paul-2nn3" target="_blank">
+    <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqt5se4f55jcbevc08eoe.png" width="300" alt="Intro article" />
+  </a>
+</p>
+
+👉 [See all posts](https://dev.to/anikpaul)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
