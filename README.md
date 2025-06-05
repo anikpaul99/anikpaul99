@@ -59,20 +59,7 @@
   </a>
 </div>
 
-<p>
-  👉 <a href="https://dev.to/anikpaul" target="_blank" style="
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #0a0a23;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-    margin-top: 10px;
-  ">
-    View All Articles
-  </a>
-</p>
+👉 [View all articles on Dev.to](https://dev.to/anikpaul)
 
 <h3 align="left">🤝 Connect with me:</h3>
 <p align="left">
