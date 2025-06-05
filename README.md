@@ -30,7 +30,8 @@
 <h3 align="left">📝 My Latest Articles</h3>
 
 <!-- Flex container for responsive layout -->
-<div align="left" style="display: flex; flex-wrap: wrap; gap: 10px;">
+<!-- <div align="left" style="display: flex; flex-wrap: wrap; gap: 10px;"> -->
+<div align="center" style="display: flex; gap: 10px; flex-wrap: nowrap; justify-content: center;">
   <!-- Article 1 -->
   <a href="https://dev.to/anikpaul/02-understanding-the-css-box-model-a-comprehensive-guide-f6d" target="_blank">
     <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb3dgv69xiv985oleae6w.png" alt="CSS Box Model Guide" style="max-width: 100%; width: 300px; height: auto;" />
@@ -45,12 +46,22 @@
   <a href="https://dev.to/anikpaul/00-hello-dev-community-im-anik-paul-2nn3" target="_blank">
     <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqt5se4f55jcbevc08eoe.png" alt="Intro Article" style="max-width: 100%; width: 300px; height: auto;" />
   </a>
-
-  <!-- Article 3 -->
 </div>
 
-<!-- View all link -->
-<p>👉 <a href="https://dev.to/anikpaul" target="_blank">See all posts</a></p>
+<p>
+  👉 <a href="https://dev.to/anikpaul" target="_blank" style="
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #0a0a23;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 10px;
+  ">
+    View All Articles
+  </a>
+</p>
 
 <h3 align="left">🤝 Connect with me:</h3>
 <p align="left">
