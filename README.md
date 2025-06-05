@@ -32,11 +32,16 @@
 <!-- Flex container for responsive layout -->
 <div align="left" style="display: flex; flex-wrap: wrap; gap: 10px;">
   <!-- Article 1 -->
+  <a href="https://dev.to/anikpaul/02-understanding-the-css-box-model-a-comprehensive-guide-f6d" target="_blank">
+    <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb3dgv69xiv985oleae6w.png" alt="CSS Box Model Guide" style="max-width: 100%; width: 300px; height: auto;" />
+  </a>
+
+  <!-- Article 2 -->
   <a href="https://dev.to/anikpaul/01-understanding-the-fundamentals-of-web-development-2621" target="_blank">
     <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyc5499k25o79fg0emcj8.png" alt="Web Dev Fundamentals" style="max-width: 100%; width: 300px; height: auto;" />
   </a>
 
-  <!-- Article 2 -->
+  <!-- Article 3 -->
   <a href="https://dev.to/anikpaul/00-hello-dev-community-im-anik-paul-2nn3" target="_blank">
     <img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqt5se4f55jcbevc08eoe.png" alt="Intro Article" style="max-width: 100%; width: 300px; height: auto;" />
   </a>
