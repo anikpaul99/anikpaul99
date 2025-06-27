@@ -31,8 +31,16 @@
 
 <!-- Flex container for responsive layout -->
 <div align="left" style="display: flex; flex-wrap: wrap; gap: 10px;">
-
   <!-- Article 1 -->
+  <a href="https://dev.to/anikpaul/05-css-04-mastering-css-grid-building-responsive-two-dimensional-layouts-2b5k" target="_blank">
+    <img
+      src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvjw58p287yon0xf7ess9.png"
+      alt="Mastering CSS"
+      style="width: 250px; height: auto;"
+    />
+  </a>
+
+  <!-- Article 2 -->
   <a href="https://dev.to/anikpaul/04-css-03-understanding-flexbox-a-comprehensive-guide-to-building-one-dimensional-layouts-51hm" target="_blank">
     <img
       src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9irqy1qginoa8ty7ywaw.png"
@@ -41,20 +49,11 @@
     />
   </a>
 
-  <!-- Article 2 -->
+  <!-- Article 3 -->
   <a href="https://dev.to/anikpaul/03-mastering-absolute-positioning-in-css-a-comprehensive-guide-2fgk" target="_blank">
     <img
       src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvp4o57vxp8z4mi6blu9h.png"
       alt="Mastering CSS Positioning"
-      style="width: 250px; height: auto;"
-    />
-  </a>
-
-  <!-- Article 3 -->
-  <a href="https://dev.to/anikpaul/02-understanding-the-css-box-model-a-comprehensive-guide-f6d" target="_blank">
-    <img
-      src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb3dgv69xiv985oleae6w.png"
-      alt="CSS Box Model Guide"
       style="width: 250px; height: auto;"
     />
   </a>
