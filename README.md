@@ -32,6 +32,15 @@
 <!-- Flex container for responsive layout -->
 <div align="left" style="display: flex; flex-wrap: wrap; gap: 10px;">
   <!-- Article 1 -->
+  <a href="https://dev.to/anikpaul/07-css-06-mastering-styled-components-a-modern-approach-to-css-in-react-2ngg" target="_blank">
+    <img
+      src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1tuk42v339hoqswysi35.png"
+      alt="Using Tailwind CSS with Vite"
+      style="width: 250px; height: auto;"
+    />
+  </a>
+
+  <!-- Article 2 -->
   <a href="https://dev.to/anikpaul/06-css-05-a-comprehensive-guide-to-setting-up-and-using-tailwind-css-with-vite-47d0" target="_blank">
     <img
       src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdawnpwhd3xyeadecs2ge.png"
@@ -40,20 +49,11 @@
     />
   </a>
 
-  <!-- Article 2 -->
+  <!-- Article 3 -->
   <a href="https://dev.to/anikpaul/05-css-04-mastering-css-grid-building-responsive-two-dimensional-layouts-2b5k" target="_blank">
     <img
       src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvjw58p287yon0xf7ess9.png"
       alt="Mastering CSS"
-      style="width: 250px; height: auto;"
-    />
-  </a>
-
-  <!-- Article 3 -->
-  <a href="https://dev.to/anikpaul/04-css-03-understanding-flexbox-a-comprehensive-guide-to-building-one-dimensional-layouts-51hm" target="_blank">
-    <img
-      src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9irqy1qginoa8ty7ywaw.png"
-      alt="Understanding Flexbox"
       style="width: 250px; height: auto;"
     />
   </a>
