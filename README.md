@@ -32,19 +32,19 @@
 <!-- Flex container for responsive layout -->
 <div align="left" style="display: flex; flex-wrap: wrap; gap: 10px;">
   <!-- Article 1 -->
-  <a href="https://dev.to/anikpaul/10-py-01-python-setup-for-beginners-start-coding-in-minutes-goo" target="_blank">
+    <a href="https://dev.to/anikpaul/10-js-02-a-beginners-guide-to-javascript-versions-es5-es6-and-esnext-49oj" target="_blank">
     <img
-      src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqp4ivw8n8cz3nsa51iww.png"
-      alt="Python Setup"
+      src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhje94cscxcuyv2c69cke.png"
+      alt="JavaScript Versions"
       style="width: 250px; height: auto;"
     />
   </a>
 
   <!-- Article 2 -->
-  <a href="https://dev.to/anikpaul/10-js-02-a-beginners-guide-to-javascript-versions-es5-es6-and-esnext-49oj" target="_blank">
+  <a href="https://dev.to/anikpaul/10-py-01-python-setup-for-beginners-start-coding-in-minutes-goo" target="_blank">
     <img
-      src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhje94cscxcuyv2c69cke.png"
-      alt="JavaScript Versions"
+      src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqp4ivw8n8cz3nsa51iww.png"
+      alt="Python Setup"
       style="width: 250px; height: auto;"
     />
   </a>
