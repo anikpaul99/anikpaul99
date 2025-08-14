@@ -41,19 +41,19 @@
   </a>
 
   <!-- Article 2 -->
-  <a href="https://dev.to/anikpaul/09-re-01-react-an-overview-of-the-javascript-library-revolutionizing-uis-49c9" target="_blank">
+  <a href="https://dev.to/anikpaul/10-js-02-a-beginners-guide-to-javascript-versions-es5-es6-and-esnext-49oj" target="_blank">
     <img
-      src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyy9gjcg4b8tx5uqtldfp.png"
-      alt="React Overview"
+      src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhje94cscxcuyv2c69cke.png"
+      alt="JavaScript Versions"
       style="width: 250px; height: auto;"
     />
   </a>
 
   <!-- Article 3 -->
-  <a href="https://dev.to/anikpaul/08-js-01-javascript-fundamentals-a-beginner-friendly-guide-4hmj" target="_blank">
+  <a href="https://dev.to/anikpaul/09-re-01-react-an-overview-of-the-javascript-library-revolutionizing-uis-49c9" target="_blank">
     <img
-      src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ff1b147rc8ss0h7mdkulq.png"
-      alt="JavaScript Fundamentals"
+      src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyy9gjcg4b8tx5uqtldfp.png"
+      alt="React Overview"
       style="width: 250px; height: auto;"
     />
   </a>
