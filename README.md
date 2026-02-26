@@ -11,11 +11,13 @@
 <br/>
 
 <div align="center">
+
 <a href="https://paulanik.com">paulanik.com</a> &nbsp;·&nbsp;
 <a href="https://linkedin.com/in/anik-paul-dev">linkedin</a> &nbsp;·&nbsp;
 <a href="https://dev.to/anikpaul">dev.to</a> &nbsp;·&nbsp;
 <a href="https://x.com/anikpauldev">x</a> &nbsp;·&nbsp;
 <a href="mailto:hello@paulanik.com">hello@paulanik.com</a>
+
 </div>
 
 <br/><br/>
@@ -113,17 +115,15 @@
 <br/><br/>
 
 <div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=anikpaul99&color=ffffff&style=flat-square&label=profile+views" alt="profile views"/>
-
-<br/><br/><br/>
-
-<sub><em>" Design is not just what it looks like and feels like.<br/>Design is how it works. "</em></sub>
+<img src="https://github.com/anikpaul99/anikpaul99/blob/main/assets/footer.svg" alt="" width="96%"/>
+</div>
 
 <br/>
 
-<sub>— Steve Jobs</sub>
+<div align="center">
 
-<br/><br/>
+[![](https://komarev.com/ghpvc/?username=anikpaul99&style=flat-square&color=1c1c1c&labelColor=1c1c1c&label=👁+profile+views)](https://github.com/anikpaul99)
 
 </div>
+
+<br/><br/>
