@@ -1,15 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 58" width="860" height="58">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 64" width="860" height="64">
   <defs>
-    <linearGradient id="headerLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#0ff4c6" stop-opacity="0"/>
-      <stop offset="20%"  stop-color="#0ff4c6" stop-opacity="0.8"/>
-      <stop offset="80%"  stop-color="#9b59ff" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#9b59ff" stop-opacity="0"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#07091a"/>
+      <stop offset="50%"  stop-color="#0d0820"/>
+      <stop offset="100%" stop-color="#07091a"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00d4aa" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#00d4aa" stop-opacity="0.5"/>
+      <stop offset="70%"  stop-color="#7c3aed" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect width="860" height="58" fill="#050810" rx="8"/>
-  <rect x="0" y="0"  width="860" height="1" fill="url(#headerLine)"/>
-  <rect x="0" y="57" width="860" height="1" fill="url(#headerLine)"/>
-  <text x="430" y="22" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" letter-spacing="5" fill="#0ff4c6" opacity="0.7">NEWSLETTER</text>
-  <text x="430" y="44" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" letter-spacing="3" fill="white" opacity="0.95">The Weekly Commit</text>
+  <rect width="860" height="64" fill="url(#bg)" rx="6"/>
+  <rect x="0" y="0"  width="860" height="1"  fill="url(#borderGrad)" rx="1"/>
+  <rect x="0" y="63" width="860" height="1"  fill="url(#borderGrad)" rx="1"/>
+  <text x="430" y="23" text-anchor="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-size="9" letter-spacing="6"
+    fill="#00d4aa" opacity="0.6">NEWSLETTER</text>
+  <text x="430" y="48" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="20" letter-spacing="4"
+    fill="white" opacity="0.92">The Weekly Commit</text>
 </svg>

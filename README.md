@@ -1,60 +1,63 @@
 <div align="center">
 
-<img src="https://github.com/anikpaul99/anikpaul99/blob/main/assets/header.svg" alt="Anik Paul — Front-End Developer" width="100%"/>
+<img src="https://github.com/anikpaul99/anikpaul99/blob/main/assets/header.svg" alt="Anik Paul" width="100%"/>
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=anikpaul99&style=flat-square&color=9b59ff&label=EXPLORERS+WHO+VISITED)
+![Profile Views](https://komarev.com/ghpvc/?username=anikpaul99&style=flat-square&color=9b59ff&label=explorers+visited)
 
 </div>
 
+<br/>
+
 ---
 
 <br/>
 
 ```
-  ┌─────────────────────────────────────────────────────────────┐
-  │  > whoami                                                    │
-  │                                                             │
-  │    A front-end developer who believes that great UI is       │
-  │    not decoration — it's communication. I build with         │
-  │    React & Next.js, write to teach, and stay curious.        │
-  │                                                             │
-  │  > current_mission                                           │
-  │    Building The Wild Oasis (Customer)                        │
-  │    Mastering Next.js · Exploring Node.js                     │
-  │                                                             │
-  │  > location                                                  │
-  │    Somewhere between a blank <div> and a finished product    │
-  └─────────────────────────────────────────────────────────────┘
+  ┌──────────────────────────────────────────────────────────────┐
+  │  > whoami                                                     │
+  │                                                              │
+  │    A front-end developer who believes that great UI is        │
+  │    not decoration — it's communication. I build with          │
+  │    React & Next.js, write to teach, and stay curious.         │
+  │                                                              │
+  │  > current_mission                                            │
+  │    Building The Wild Oasis (Customer)                         │
+  │    Mastering Next.js  ·  Exploring Node.js                    │
+  │                                                              │
+  │  > contact                                                    │
+  │    hello@paulanik.com  ·  paulanik.com                        │
+  └──────────────────────────────────────────────────────────────┘
 ```
 
 <br/>
 
 ---
+
+<br/>
 
 <div align="center">
 
-<img src="https://github.com/anikpaul99/anikpaul99/blob/main/assets/newsletter-header.svg" alt="The Weekly Commit" width="95%"/>
+<img src="https://github.com/anikpaul99/anikpaul99/blob/main/assets/newsletter-header.svg" alt="The Weekly Commit Newsletter" width="95%"/>
 
 <br/><br/>
 
-**Every week, I break down JavaScript, React, and web development — distilled, practical, no noise.**
-<br/>
-*Deep dives that actually move your skills forward.*
+Every week, I break down JavaScript, React, and modern web development.<br/>
+*Distilled. Practical. No noise.*
 
 <br/>
 
-[![Subscribe to The Weekly Commit](https://img.shields.io/badge/Subscribe_on_LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7353997486119620608)
+[![Subscribe on LinkedIn](https://img.shields.io/badge/Subscribe_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7353997486119620608)
 
 </div>
 
 <br/>
 
-### 📡 &nbsp;Latest Transmissions from The Weekly Commit
+### 📡 &nbsp;Latest Transmissions
 
-| # | Article | Topic |
-|---|---------|-------|
+| &nbsp; | Article | Topic |
+|--------|---------|-------|
 | `#30` | [**MVC Architecture — A Complete Guide**](https://www.linkedin.com/pulse/weekly-commit-30-js28-mvc-architecture-complete-guide-anik-paul-klljc) | JS Design Patterns |
 | `#29` | [**JavaScript Script Loading — defer & async**](https://www.linkedin.com/pulse/weekly-commit-29-js27-javascript-script-loading-defer-anik-paul-tedac) | Core JavaScript |
 | `#28` | [**JavaScript Modules — Complete Modern Guide**](https://www.linkedin.com/pulse/weekly-commit-28-js26-javascript-modules-complete-modern-anik-paul-u5svc) | ES Modules |
@@ -63,25 +66,9 @@
 
 ---
 
-<div align="center">
-
-### 🌌 &nbsp;Activity in the Cosmos
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=anikpaul99&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=050810&title_color=0ff4c6&icon_color=9b59ff&text_color=c0c8e8&ring_color=9b59ff" />
-&nbsp;&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anikpaul99&layout=compact&theme=midnight-purple&hide_border=true&bg_color=050810&title_color=0ff4c6&text_color=c0c8e8" />
-
-<br/><br/>
-
-<img width="70%" src="https://streak-stats.demolab.com?user=anikpaul99&theme=midnight-purple&hide_border=true&background=050810&ring=9b59ff&fire=0ff4c6&currStreakLabel=0ff4c6&sideLabels=9b59ff&dates=5a6480"/>
-
-</div>
-
 <br/>
 
----
-
-### ⚡ &nbsp;Technologies in my orbit
+### ⚡ &nbsp;Technologies
 
 <div align="center">
 
@@ -107,32 +94,36 @@
 
 ---
 
+<br/>
+
 ### 🏅 &nbsp;Codewars
 
 <a href="https://www.codewars.com/users/anikpaul99" target="_blank">
-  <img src="https://www.codewars.com/users/anikpaul99/badges/large" alt="Codewars badge"/>
+  <img src="https://www.codewars.com/users/anikpaul99/badges/large" alt="Codewars"/>
 </a>
 
 <br/><br/>
 
 ---
 
+<br/>
+
 <div align="center">
 
-### 🛸 &nbsp;Find me across the universe
+### &nbsp;Find me
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-paulanik.com-0ff4c6?style=for-the-badge&logoColor=white)](https://paulanik.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-paulanik.com-00d4aa?style=for-the-badge)](https://paulanik.com)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anik-paul-dev)
 &nbsp;
 [![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/anikpaul)
 &nbsp;
-[![Twitter/X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/anikpauldev)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-hello@paulanik.com-9b59ff?style=for-the-badge&logoColor=white)](mailto:hello@paulanik.com)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/anikpauldev)
 
 <br/><br/>
 
-*"The cosmos is within us. We are made of star-stuff." — Carl Sagan*
+<sub>*"The cosmos is within us. We are made of star-stuff."* — Carl Sagan</sub>
+
+<br/>
 
 </div>
