@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 230" width="860" height="230">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 218" width="860" height="218">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%"   stop-color="#0a0a0e"/>
@@ -18,49 +18,86 @@
     </linearGradient>
   </defs>
 
-  <rect width="860" height="230" fill="url(#bg)" rx="4"/>
+  <rect width="860" height="218" fill="url(#bg)" rx="4"/>
   <rect x="0"   y="0"   width="860" height="1"   fill="url(#bh)"/>
-  <rect x="0"   y="229" width="860" height="1"   fill="url(#bh)"/>
-  <rect x="0"   y="0"   width="1"   height="230" fill="url(#bv)"/>
-  <rect x="859" y="0"   width="1"   height="230" fill="url(#bv)"/>
+  <rect x="0"   y="217" width="860" height="1"   fill="url(#bh)"/>
+  <rect x="0"   y="0"   width="1"   height="218" fill="url(#bv)"/>
+  <rect x="859" y="0"   width="1"   height="218" fill="url(#bv)"/>
 
-  <!-- Prompt -->
-  <text x="36" y="44"
+  <!-- Prompt line -->
+  <text x="36" y="40"
     font-family="'Courier New', Courier, monospace"
-    font-size="14" fill="white" opacity="0.22" letter-spacing="1">~/anikpaul</text>
-  <text x="158" y="44"
+    font-size="13.5" fill="white" opacity="0.20" letter-spacing="1">~/anikpaul</text>
+  <text x="162" y="40"
     font-family="'Courier New', Courier, monospace"
-    font-size="14" fill="white" opacity="0.14">$</text>
-  <text x="175" y="44"
+    font-size="13.5" fill="white" opacity="0.12">$</text>
+  <text x="180" y="40"
     font-family="'Courier New', Courier, monospace"
-    font-size="14" fill="white" opacity="0.60" letter-spacing="1">whoami</text>
-  <rect x="258" y="29" width="10" height="17" fill="white" opacity="0.38"/>
+    font-size="13.5" fill="white" opacity="0.58" letter-spacing="1">whoami</text>
+  <rect x="268" y="25" width="10" height="16" fill="white" opacity="0.36"/>
 
-  <line x1="36" y1="58" x2="824" y2="58" stroke="white" stroke-width="0.4" opacity="0.07"/>
+  <line x1="36" y1="54" x2="824" y2="54" stroke="white" stroke-width="0.4" opacity="0.07"/>
 
-  <!-- Row 1 -->
-  <text x="36"  y="87"  font-family="'Courier New', monospace" font-size="13" fill="white" opacity="0.24" letter-spacing="1">role</text>
-  <text x="116" y="87"  font-family="'Courier New', monospace" font-size="13" fill="white" opacity="0.16">›</text>
-  <text x="136" y="87"  font-family="Georgia, serif" font-size="15" fill="white" opacity="0.78" letter-spacing="0.3">Software Engineer — building for the web, from Bangladesh</text>
+  <!--
+    Column layout (all rows use same x positions):
+    KEY:   x=36   (right-aligned to x=148)
+    ›:     x=158
+    VALUE: x=178
+  -->
 
-  <!-- Row 2 -->
-  <text x="36"  y="115" font-family="'Courier New', monospace" font-size="13" fill="white" opacity="0.24" letter-spacing="1">learning</text>
-  <text x="116" y="115" font-family="'Courier New', monospace" font-size="13" fill="white" opacity="0.16">›</text>
-  <text x="136" y="115" font-family="Georgia, serif" font-size="15" fill="white" opacity="0.78" letter-spacing="0.3">Deep-diving into back-end — NestJS · Prisma · PostgreSQL</text>
+  <!-- Row 1: role -->
+  <text x="148" y="82" text-anchor="end"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="white" opacity="0.24" letter-spacing="1">role</text>
+  <text x="158" y="82"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="white" opacity="0.18">›</text>
+  <text x="178" y="82"
+    font-family="Georgia, serif" font-size="15"
+    fill="white" opacity="0.80" letter-spacing="0.2">Software Engineer — building for the web, from Bangladesh</text>
 
-  <!-- Row 3 -->
-  <text x="36"  y="143" font-family="'Courier New', monospace" font-size="13" fill="white" opacity="0.24" letter-spacing="1">craft</text>
-  <text x="116" y="143" font-family="'Courier New', monospace" font-size="13" fill="white" opacity="0.16">›</text>
-  <text x="136" y="143" font-family="Georgia, serif" font-size="15" fill="white" opacity="0.78" letter-spacing="0.3">React · Next.js · TypeScript · UI that thinks and communicates</text>
+  <!-- Row 2: learning -->
+  <text x="148" y="110" text-anchor="end"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="white" opacity="0.24" letter-spacing="1">learning</text>
+  <text x="158" y="110"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="white" opacity="0.18">›</text>
+  <text x="178" y="110"
+    font-family="Georgia, serif" font-size="15"
+    fill="white" opacity="0.80" letter-spacing="0.2">Back-end — NestJS · Prisma · PostgreSQL · System Design</text>
 
-  <!-- Row 4 -->
-  <text x="36"  y="171" font-family="'Courier New', monospace" font-size="13" fill="white" opacity="0.24" letter-spacing="1">writing</text>
-  <text x="116" y="171" font-family="'Courier New', monospace" font-size="13" fill="white" opacity="0.16">›</text>
-  <text x="136" y="171" font-family="Georgia, serif" font-size="15" fill="white" opacity="0.78" letter-spacing="0.3">The Weekly Commit — software engineering, one issue at a time</text>
+  <!-- Row 3: craft -->
+  <text x="148" y="138" text-anchor="end"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="white" opacity="0.24" letter-spacing="1">craft</text>
+  <text x="158" y="138"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="white" opacity="0.18">›</text>
+  <text x="178" y="138"
+    font-family="Georgia, serif" font-size="15"
+    fill="white" opacity="0.80" letter-spacing="0.2">React · Next.js · TypeScript · UI that thinks and communicates</text>
 
-  <!-- Row 5 -->
-  <text x="36"  y="199" font-family="'Courier New', monospace" font-size="13" fill="white" opacity="0.24" letter-spacing="1">reach</text>
-  <text x="116" y="199" font-family="'Courier New', monospace" font-size="13" fill="white" opacity="0.16">›</text>
-  <text x="136" y="199" font-family="Georgia, serif" font-size="15" fill="white" opacity="0.78" letter-spacing="0.3">hello@paulanik.com  ·  paulanik.com</text>
+  <!-- Row 4: writing -->
+  <text x="148" y="166" text-anchor="end"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="white" opacity="0.24" letter-spacing="1">writing</text>
+  <text x="158" y="166"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="white" opacity="0.18">›</text>
+  <text x="178" y="166"
+    font-family="Georgia, serif" font-size="15"
+    fill="white" opacity="0.80" letter-spacing="0.2">The Weekly Commit — software engineering, one issue at a time</text>
+
+  <!-- Row 5: reach -->
+  <text x="148" y="194" text-anchor="end"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="white" opacity="0.24" letter-spacing="1">reach</text>
+  <text x="158" y="194"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="white" opacity="0.18">›</text>
+  <text x="178" y="194"
+    font-family="Georgia, serif" font-size="15"
+    fill="white" opacity="0.80" letter-spacing="0.2">hello@paulanik.com  ·  paulanik.com</text>
 
 </svg>
