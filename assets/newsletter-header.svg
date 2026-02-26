@@ -5,32 +5,33 @@
       <stop offset="50%"  stop-color="#0f0f14"/>
       <stop offset="100%" stop-color="#0a0a0d"/>
     </linearGradient>
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="borderH" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="white" stop-opacity="0"/>
-      <stop offset="25%"  stop-color="white" stop-opacity="0.12"/>
-      <stop offset="75%"  stop-color="white" stop-opacity="0.12"/>
+      <stop offset="25%"  stop-color="white" stop-opacity="0.10"/>
+      <stop offset="75%"  stop-color="white" stop-opacity="0.10"/>
       <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="platAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="rule" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="white" stop-opacity="0"/>
-      <stop offset="35%"  stop-color="#d0daf0" stop-opacity="0.35"/>
-      <stop offset="65%"  stop-color="#d0daf0" stop-opacity="0.35"/>
+      <stop offset="40%"  stop-color="white" stop-opacity="0.18"/>
+      <stop offset="60%"  stop-color="white" stop-opacity="0.18"/>
       <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <rect width="860" height="72" fill="url(#bg)" rx="4"/>
-  <rect x="0" y="0"  width="860" height="1" fill="url(#borderGrad)"/>
-  <rect x="0" y="71" width="860" height="1" fill="url(#borderGrad)"/>
-  <!-- left decorative line -->
-  <line x1="60" y1="36" x2="240" y2="36" stroke="url(#platAccent)" stroke-width="0.6"/>
-  <!-- right decorative line -->
-  <line x1="620" y1="36" x2="800" y2="36" stroke="url(#platAccent)" stroke-width="0.6"/>
-  <text x="430" y="26" text-anchor="middle"
+  <rect x="0" y="0"  width="860" height="1" fill="url(#borderH)"/>
+  <rect x="0" y="71" width="860" height="1" fill="url(#borderH)"/>
+  <!-- Side rules flanking the title -->
+  <line x1="52"  y1="36" x2="232" y2="36" stroke="url(#rule)" stroke-width="0.7"/>
+  <line x1="628" y1="36" x2="808" y2="36" stroke="url(#rule)" stroke-width="0.7"/>
+  <!-- Label -->
+  <text x="430" y="25" text-anchor="middle"
     font-family="'Courier New', Courier, monospace"
-    font-size="8.5" letter-spacing="7"
-    fill="white" opacity="0.35">NEWSLETTER</text>
+    font-size="9" letter-spacing="7"
+    fill="white" opacity="0.32">NEWSLETTER</text>
+  <!-- Title -->
   <text x="430" y="52" text-anchor="middle"
     font-family="Georgia, 'Times New Roman', serif"
-    font-size="20" letter-spacing="5"
-    fill="white" opacity="0.88">The Weekly Commit</text>
+    font-size="21" letter-spacing="5"
+    fill="white" opacity="0.90">The Weekly Commit</text>
 </svg>

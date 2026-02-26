@@ -1,41 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340">
   <defs>
 
-    <!-- Pure deep black, very slightly warm at edges -->
     <radialGradient id="bg" cx="50%" cy="50%" r="70%">
       <stop offset="0%"   stop-color="#0c0c0f"/>
       <stop offset="100%" stop-color="#050506"/>
     </radialGradient>
 
-    <!-- Barely-visible nebula — left, cold blue-grey -->
     <radialGradient id="neb1" cx="12%" cy="50%" r="40%">
-      <stop offset="0%"  stop-color="#a0b4d0" stop-opacity="0.04"/>
+      <stop offset="0%"  stop-color="#a0b4d0" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="#a0b4d0" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Barely-visible nebula — right, same tone -->
     <radialGradient id="neb2" cx="88%" cy="45%" r="38%">
       <stop offset="0%"  stop-color="#a0b4d0" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="#a0b4d0" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Very faint centre breath behind text -->
     <radialGradient id="centreBreath" cx="50%" cy="52%" r="28%">
       <stop offset="0%"  stop-color="#c8d4e8" stop-opacity="0.04"/>
       <stop offset="100%" stop-color="#c8d4e8" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Platinum / silver shimmer line under name -->
+    <!-- Platinum shimmer line -->
     <linearGradient id="platLine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="20%"  stop-color="#d0d8e8" stop-opacity="0.15"/>
-      <stop offset="45%"  stop-color="#f0f4ff" stop-opacity="0.55"/>
-      <stop offset="55%"  stop-color="#f0f4ff" stop-opacity="0.55"/>
-      <stop offset="80%"  stop-color="#d0d8e8" stop-opacity="0.15"/>
+      <stop offset="20%"  stop-color="#d0d8e8" stop-opacity="0.18"/>
+      <stop offset="45%"  stop-color="#f0f4ff" stop-opacity="0.60"/>
+      <stop offset="55%"  stop-color="#f0f4ff" stop-opacity="0.60"/>
+      <stop offset="80%"  stop-color="#d0d8e8" stop-opacity="0.18"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Outer edge border lines — barely there -->
+    <!-- Edge border hairlines -->
     <linearGradient id="edgeLine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
       <stop offset="30%"  stop-color="#ffffff" stop-opacity="0.08"/>
@@ -43,45 +39,43 @@
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Star glow — neutral white -->
+    <!-- Star glow -->
     <filter id="sg" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="1.4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
-    <!-- Constellation node glow — soft white -->
+    <!-- Constellation node glow -->
     <filter id="ng" x="-300%" y="-300%" width="700%" height="700%">
       <feGaussianBlur stdDeviation="3.5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
-    <!-- Name text glow — platinum halo -->
+    <!-- Name glow — reduced from 10 to 6.5 -->
     <filter id="tg" x="-15%" y="-60%" width="130%" height="220%">
-      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feGaussianBlur stdDeviation="6.5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
-    <!-- Label text gentle glow -->
+    <!-- Label gentle glow -->
     <filter id="lg" x="-20%" y="-80%" width="140%" height="260%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
   </defs>
 
-  <!-- ═══ BACKGROUND ═══ -->
+  <!-- BACKGROUND -->
   <rect width="900" height="340" fill="url(#bg)"/>
   <rect width="900" height="340" fill="url(#neb1)"/>
   <rect width="900" height="340" fill="url(#neb2)"/>
   <rect width="900" height="340" fill="url(#centreBreath)"/>
 
-  <!-- Top + bottom edge hairlines -->
+  <!-- Edge hairlines -->
   <line x1="0" y1="0.5"   x2="900" y2="0.5"   stroke="url(#edgeLine)" stroke-width="1"/>
   <line x1="0" y1="339.5" x2="900" y2="339.5" stroke="url(#edgeLine)" stroke-width="1"/>
 
-  <!-- ═══ STAR FIELD — three depth layers ═══ -->
-
-  <!-- Layer 1: faintest, furthest — warm-white dust -->
+  <!-- ═══ STARS — Layer 1: faint dust ═══ -->
   <g fill="#b8c8e0" opacity="0.22">
     <circle cx="18"  cy="12"  r="0.5"/><circle cx="62"  cy="34"  r="0.4"/>
     <circle cx="107" cy="8"   r="0.5"/><circle cx="153" cy="47"  r="0.4"/>
@@ -93,7 +87,6 @@
     <circle cx="681" cy="22"  r="0.5"/><circle cx="728" cy="56"  r="0.4"/>
     <circle cx="776" cy="18"  r="0.5"/><circle cx="823" cy="37"  r="0.4"/>
     <circle cx="868" cy="9"   r="0.5"/>
-    <!-- row 2 -->
     <circle cx="33"  cy="82"  r="0.4"/><circle cx="79"  cy="104" r="0.5"/>
     <circle cx="126" cy="74"  r="0.4"/><circle cx="173" cy="96"  r="0.5"/>
     <circle cx="222" cy="88"  r="0.4"/><circle cx="269" cy="114" r="0.5"/>
@@ -104,7 +97,6 @@
     <circle cx="702" cy="85"  r="0.4"/><circle cx="749" cy="112" r="0.5"/>
     <circle cx="798" cy="77"  r="0.4"/><circle cx="845" cy="99"  r="0.5"/>
     <circle cx="888" cy="88"  r="0.4"/>
-    <!-- lower half -->
     <circle cx="14"  cy="240" r="0.4"/><circle cx="59"  cy="265" r="0.5"/>
     <circle cx="108" cy="248" r="0.4"/><circle cx="155" cy="278" r="0.5"/>
     <circle cx="204" cy="260" r="0.4"/><circle cx="251" cy="292" r="0.5"/>
@@ -117,7 +109,7 @@
     <circle cx="878" cy="274" r="0.4"/>
   </g>
 
-  <!-- Layer 2: mid stars — pure white, gentle glow -->
+  <!-- ═══ STARS — Layer 2: mid glow ═══ -->
   <g fill="white" filter="url(#sg)" opacity="0.45">
     <circle cx="44"  cy="23"  r="0.8"/><circle cx="137" cy="61"  r="0.7"/>
     <circle cx="229" cy="31"  r="0.9"/><circle cx="323" cy="68"  r="0.7"/>
@@ -133,7 +125,7 @@
     <circle cx="886" cy="294" r="0.7"/>
   </g>
 
-  <!-- Layer 3: bright accent stars — full glow -->
+  <!-- ═══ STARS — Layer 3: bright foreground ═══ -->
   <g fill="white" filter="url(#sg)">
     <circle cx="83"  cy="49"  r="1.5" opacity="0.85"/>
     <circle cx="270" cy="17"  r="1.3" opacity="0.80"/>
@@ -147,7 +139,7 @@
     <circle cx="871" cy="318" r="1.1" opacity="0.65"/>
   </g>
 
-  <!-- ═══ CONSTELLATION — LEFT (5-star elegant arc — Corona Borealis style) ═══ -->
+  <!-- ═══ CONSTELLATION LEFT ═══ -->
   <g stroke="white" stroke-width="0.45" opacity="0.18" fill="none">
     <line x1="46"  y1="162" x2="74"  y2="141"/>
     <line x1="74"  y1="141" x2="106" y2="152"/>
@@ -166,7 +158,7 @@
     <circle cx="30"  cy="188" r="1.1" opacity="0.55"/>
   </g>
 
-  <!-- ═══ CONSTELLATION — RIGHT (Lyra-style, 6-star gem shape) ═══ -->
+  <!-- ═══ CONSTELLATION RIGHT ═══ -->
   <g stroke="white" stroke-width="0.45" opacity="0.18" fill="none">
     <line x1="748" y1="95"  x2="776" y2="80"/>
     <line x1="776" y1="80"  x2="808" y2="72"/>
@@ -186,66 +178,60 @@
     <circle cx="774" cy="115" r="1.3" opacity="0.65"/>
   </g>
 
-  <!-- ═══ TINY ACCENT CONSTELLATIONS — four corners, whisper-quiet ═══ -->
-
-  <!-- top-left mini triangle -->
+  <!-- ═══ CORNER MICRO-CONSTELLATIONS ═══ -->
   <g stroke="white" stroke-width="0.35" opacity="0.12" fill="none">
     <line x1="22" y1="36" x2="44" y2="22"/><line x1="44" y1="22" x2="58" y2="42"/>
     <line x1="58" y1="42" x2="22" y2="36"/>
   </g>
-  <g fill="white" filter="url(#ng)" opacity="0.45">
+  <g fill="white" filter="url(#ng)" opacity="0.40">
     <circle cx="22" cy="36" r="1.0"/><circle cx="44" cy="22" r="1.2"/>
     <circle cx="58" cy="42" r="1.0"/>
   </g>
 
-  <!-- top-right mini -->
   <g stroke="white" stroke-width="0.35" opacity="0.12" fill="none">
     <line x1="842" y1="28" x2="862" y2="14"/><line x1="862" y1="14" x2="878" y2="35"/>
     <line x1="862" y1="14" x2="858" y2="48"/>
   </g>
-  <g fill="white" filter="url(#ng)" opacity="0.40">
+  <g fill="white" filter="url(#ng)" opacity="0.38">
     <circle cx="842" cy="28" r="1.0"/><circle cx="862" cy="14" r="1.2"/>
     <circle cx="878" cy="35" r="1.0"/><circle cx="858" cy="48" r="0.9"/>
   </g>
 
-  <!-- bottom-left -->
   <g stroke="white" stroke-width="0.35" opacity="0.10" fill="none">
     <line x1="30"  y1="274" x2="56"  y2="260"/>
     <line x1="56"  y1="260" x2="74"  y2="280"/>
     <line x1="74"  y1="280" x2="50"  y2="294"/>
   </g>
-  <g fill="white" filter="url(#ng)" opacity="0.38">
+  <g fill="white" filter="url(#ng)" opacity="0.35">
     <circle cx="30"  cy="274" r="0.9"/><circle cx="56"  cy="260" r="1.1"/>
     <circle cx="74"  cy="280" r="0.9"/><circle cx="50"  cy="294" r="0.8"/>
   </g>
 
-  <!-- bottom-right -->
   <g stroke="white" stroke-width="0.35" opacity="0.10" fill="none">
     <line x1="826" y1="268" x2="850" y2="254"/>
     <line x1="850" y1="254" x2="870" y2="272"/>
     <line x1="850" y1="254" x2="852" y2="288"/>
   </g>
-  <g fill="white" filter="url(#ng)" opacity="0.38">
+  <g fill="white" filter="url(#ng)" opacity="0.35">
     <circle cx="826" cy="268" r="0.9"/><circle cx="850" cy="254" r="1.1"/>
     <circle cx="870" cy="272" r="0.9"/><circle cx="852" cy="288" r="0.8"/>
   </g>
 
   <!-- ═══ TYPOGRAPHY ═══ -->
 
-  <!-- Overline label — spaced monospace, platinum-grey -->
+  <!-- Overline: SOFTWARE ENGINEER — clearly readable -->
   <text
-    x="450" y="134"
+    x="450" y="130"
     text-anchor="middle"
     font-family="'Courier New', Courier, monospace"
-    font-size="9.5"
-    letter-spacing="9"
-    fill="#a8b8cc"
-    opacity="0.55"
+    font-size="11"
+    letter-spacing="10"
+    fill="white"
+    opacity="0.45"
     filter="url(#lg)"
-  >FRONT-END  DEVELOPER</text>
+  >SOFTWARE ENGINEER</text>
 
-  <!-- ── THE NAME ── -->
-  <!-- Shadow/halo pass -->
+  <!-- Name shadow/halo layer -->
   <text
     x="450" y="204"
     text-anchor="middle"
@@ -257,7 +243,8 @@
     opacity="0.06"
     transform="translate(0,3)"
   >ANIK PAUL</text>
-  <!-- Main name -->
+
+  <!-- Name — main, reduced glow -->
   <text
     x="450" y="204"
     text-anchor="middle"
@@ -270,30 +257,30 @@
     opacity="0.97"
   >ANIK PAUL</text>
 
-  <!-- Platinum shimmer line -->
+  <!-- Platinum shimmer divider line -->
   <line x1="140" y1="222" x2="760" y2="222" stroke="url(#platLine)" stroke-width="0.9"/>
 
-  <!-- Role subtitle — whisper -->
+  <!-- Stack — clearly readable -->
   <text
-    x="450" y="248"
+    x="450" y="250"
     text-anchor="middle"
     font-family="'Courier New', Courier, monospace"
-    font-size="10.5"
+    font-size="11.5"
     letter-spacing="6"
     fill="white"
-    opacity="0.22"
-  >REACT  ·  NEXT.JS  ·  NODE.JS</text>
+    opacity="0.42"
+  >REACT  ·  NEXT.JS  ·  NODE.JS  ·  NESTJS</text>
 
-  <!-- Tagline — italic serif, barely there -->
+  <!-- Tagline — italic serif, readable -->
   <text
-    x="450" y="294"
+    x="450" y="296"
     text-anchor="middle"
     font-family="Georgia, 'Times New Roman', serif"
-    font-size="14"
+    font-size="15"
     font-style="italic"
-    letter-spacing="0.8"
+    letter-spacing="0.5"
     fill="white"
-    opacity="0.28"
+    opacity="0.48"
   >crafting interfaces that feel like they belong to the future</text>
 
 </svg>

@@ -1,62 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" width="860" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 214" width="860" height="214">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%"   stop-color="#0a0a0e"/>
       <stop offset="100%" stop-color="#0d0d12"/>
     </linearGradient>
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="white" stop-opacity="0"/>
       <stop offset="20%"  stop-color="white" stop-opacity="0.07"/>
       <stop offset="80%"  stop-color="white" stop-opacity="0.07"/>
       <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
-    <filter id="promptGlow">
-      <feGaussianBlur stdDeviation="2" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="vborder" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="white" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="white" stop-opacity="0.07"/>
+      <stop offset="80%"  stop-color="white" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
-  <rect width="860" height="200" fill="url(#bg)" rx="4"/>
-  <rect x="0" y="0"   width="860" height="1" fill="url(#borderGrad)"/>
-  <rect x="0" y="199" width="860" height="1" fill="url(#borderGrad)"/>
-  <rect x="0" y="0"   width="1"  height="200" fill="url(#borderGrad)"/>
-  <rect x="859" y="0" width="1"  height="200" fill="url(#borderGrad)"/>
+  <rect width="860" height="214" fill="url(#bg)" rx="4"/>
+  <!-- Border hairlines -->
+  <rect x="0"   y="0"   width="860" height="1"   fill="url(#border)"/>
+  <rect x="0"   y="213" width="860" height="1"   fill="url(#border)"/>
+  <rect x="0"   y="0"   width="1"   height="214" fill="url(#vborder)"/>
+  <rect x="859" y="0"   width="1"   height="214" fill="url(#vborder)"/>
 
-  <!-- Prompt symbol -->
-  <text x="40" y="44" font-family="'Courier New', monospace" font-size="12" fill="white" opacity="0.25" letter-spacing="2">~/anikpaul</text>
-  <text x="148" y="44" font-family="'Courier New', monospace" font-size="12" fill="white" opacity="0.12">$</text>
-  <text x="162" y="44" font-family="'Courier New', monospace" font-size="12" fill="white" opacity="0.55" letter-spacing="1">whoami</text>
-
-  <!-- Cursor blink block -->
-  <rect x="234" y="31" width="8" height="14" fill="white" opacity="0.4"/>
+  <!-- Prompt line -->
+  <text x="38" y="42"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="white" opacity="0.22" letter-spacing="1">~/anikpaul</text>
+  <text x="152" y="42"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="white" opacity="0.12">$</text>
+  <text x="168" y="42"
+    font-family="'Courier New', Courier, monospace"
+    font-size="13" fill="white" opacity="0.58" letter-spacing="1">whoami</text>
+  <!-- blinking cursor block -->
+  <rect x="246" y="28" width="9" height="16" fill="white" opacity="0.38"/>
 
   <!-- Divider -->
-  <line x1="40" y1="56" x2="820" y2="56" stroke="white" stroke-width="0.4" opacity="0.06"/>
+  <line x1="38" y1="56" x2="822" y2="56" stroke="white" stroke-width="0.4" opacity="0.07"/>
 
-  <!-- Output lines -->
-  <!-- Line 1 -->
-  <text x="40" y="80" font-family="'Courier New', monospace" font-size="12" fill="white" opacity="0.18" letter-spacing="1">name</text>
-  <text x="100" y="80" font-family="'Courier New', monospace" font-size="12" fill="white" opacity="0.12">→</text>
-  <text x="120" y="80" font-family="Georgia, serif" font-size="12.5" fill="white" opacity="0.65" letter-spacing="0.5">Anik Paul — Front-End Developer, Bangladesh</text>
+  <!-- Output rows — key label + value -->
+  <!-- Row 1 -->
+  <text x="38"  y="82" font-family="'Courier New', monospace" font-size="12.5" fill="white" opacity="0.22" letter-spacing="1">role</text>
+  <text x="110" y="82" font-family="'Courier New', monospace" font-size="12.5" fill="white" opacity="0.14">›</text>
+  <text x="128" y="82" font-family="Georgia, serif" font-size="13.5" fill="white" opacity="0.72" letter-spacing="0.3">Software Engineer — building for the web, from Bangladesh</text>
 
-  <!-- Line 2 -->
-  <text x="40" y="104" font-family="'Courier New', monospace" font-size="12" fill="white" opacity="0.18" letter-spacing="1">focus</text>
-  <text x="100" y="104" font-family="'Courier New', monospace" font-size="12" fill="white" opacity="0.12">→</text>
-  <text x="120" y="104" font-family="Georgia, serif" font-size="12.5" fill="white" opacity="0.65" letter-spacing="0.5">Building beautiful UIs · Expanding into back-end</text>
+  <!-- Row 2 -->
+  <text x="38"  y="108" font-family="'Courier New', monospace" font-size="12.5" fill="white" opacity="0.22" letter-spacing="1">current</text>
+  <text x="110" y="108" font-family="'Courier New', monospace" font-size="12.5" fill="white" opacity="0.14">›</text>
+  <text x="128" y="108" font-family="Georgia, serif" font-size="13.5" fill="white" opacity="0.72" letter-spacing="0.3">Deep-diving into back-end — NestJS · Prisma · PostgreSQL</text>
 
-  <!-- Line 3 -->
-  <text x="40" y="128" font-family="'Courier New', monospace" font-size="12" fill="white" opacity="0.18" letter-spacing="1">learning</text>
-  <text x="120" y="128" font-family="'Courier New', monospace" font-size="12" fill="white" opacity="0.12">→</text>
-  <text x="140" y="128" font-family="Georgia, serif" font-size="12.5" fill="white" opacity="0.65" letter-spacing="0.5">NestJS · Prisma · PostgreSQL · System Design</text>
+  <!-- Row 3 -->
+  <text x="38"  y="134" font-family="'Courier New', monospace" font-size="12.5" fill="white" opacity="0.22" letter-spacing="1">craft</text>
+  <text x="110" y="134" font-family="'Courier New', monospace" font-size="12.5" fill="white" opacity="0.14">›</text>
+  <text x="128" y="134" font-family="Georgia, serif" font-size="13.5" fill="white" opacity="0.72" letter-spacing="0.3">React · Next.js · TypeScript · clean UI that communicates</text>
 
-  <!-- Line 4 -->
-  <text x="40" y="152" font-family="'Courier New', monospace" font-size="12" fill="white" opacity="0.18" letter-spacing="1">writing</text>
-  <text x="107" y="152" font-family="'Courier New', monospace" font-size="12" fill="white" opacity="0.12">→</text>
-  <text x="127" y="152" font-family="Georgia, serif" font-size="12.5" fill="white" opacity="0.65" letter-spacing="0.5">The Weekly Commit — a LinkedIn newsletter on JS and web dev</text>
+  <!-- Row 4 -->
+  <text x="38"  y="160" font-family="'Courier New', monospace" font-size="12.5" fill="white" opacity="0.22" letter-spacing="1">writing</text>
+  <text x="110" y="160" font-family="'Courier New', monospace" font-size="12.5" fill="white" opacity="0.14">›</text>
+  <text x="128" y="160" font-family="Georgia, serif" font-size="13.5" fill="white" opacity="0.72" letter-spacing="0.3">The Weekly Commit — software engineering, one issue at a time</text>
 
-  <!-- Line 5 -->
-  <text x="40" y="176" font-family="'Courier New', monospace" font-size="12" fill="white" opacity="0.18" letter-spacing="1">reach</text>
-  <text x="96" y="176" font-family="'Courier New', monospace" font-size="12" fill="white" opacity="0.12">→</text>
-  <text x="116" y="176" font-family="Georgia, serif" font-size="12.5" fill="white" opacity="0.65" letter-spacing="0.5">hello@paulanik.com · paulanik.com</text>
+  <!-- Row 5 -->
+  <text x="38"  y="186" font-family="'Courier New', monospace" font-size="12.5" fill="white" opacity="0.22" letter-spacing="1">reach</text>
+  <text x="110" y="186" font-family="'Courier New', monospace" font-size="12.5" fill="white" opacity="0.14">›</text>
+  <text x="128" y="186" font-family="Georgia, serif" font-size="13.5" fill="white" opacity="0.72" letter-spacing="0.3">hello@paulanik.com  ·  paulanik.com</text>
 
 </svg>
